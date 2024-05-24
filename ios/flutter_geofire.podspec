@@ -17,7 +17,7 @@ A Flutter plugin to get the realtime updates of places nearby.
 
   s.dependency 'Flutter'
  # s.ios.dependency 'GeoFire', '~> 4.0'
-  s.dependency 'GeoFire', :git => 'https://github.com/gregor9494/geofire-objc.git', :branch => 'main' # or the correct branch
+  s.ios.dependency 'GeoFire', :git => 'https://github.com/gregor9494/geofire-objc.git', :branch => 'main' # or the correct branch
 
 
   s.static_framework = true
